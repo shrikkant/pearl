@@ -1,0 +1,113 @@
+.bg-headerTitlePlatform {background: url("../img/bg-headerTitlePlatform.jpg") no-repeat;
+height: 155px;
+width: 580px;
+padding: 20px;
+}
+.colheaderTitlePlatform{
+	width: 300px;
+}
+.bg-headerTitle .colheaderTitlePlatform h2{
+	width: auto;
+}
+.surveysDescription{
+	color: #fff;
+	background: #333333;
+	width: 760px;
+	padding: 20px;	
+}
+.surveysDescription h2{font: 18px/25px 'Geogrotesque-Regular';margin: 0;}
+
+.caseStudy {
+	background: #172852;
+	width:120px;
+	display: block;
+	height: 135px;
+	padding: 30px;
+}
+.caseStudy a{
+	color: #fff;
+	background: url("../img/icon-pdf.png") no-repeat scroll 97px center #2CABE1;
+	text-decoration: none;
+	display: block;
+	margin: 100px auto 0;
+	padding: 4px 10px;
+}
+.caseStudy a:hover{opacity: 0.9;}
+
+.surveysSuite h2{background:url("../img/iconsSprite.png") no-repeat scroll 7px -4px #2CABE1;}
+.surveysSuite .colSuite{width: 370px; padding: 10px 15px; height: 440px;}
+.surveysSuite .colWhiteSuite{color: #333;}
+.surveysSuite .colWhiteSuite h3{margin: 0 0 10px 0;font: 18px/23px 'Geogrotesque-Regular';}
+.surveysSuite .colWhiteSuite h4{margin: 0;font: bold 16px/18px 'Geogrotesque-Medium';}
+.surveysSuite .colWhiteSuite p{margin: 0 0 11px 0;font: 14px/21px 'Geogrotesque-Regular';}
+.surveysSuite .colBlackSuite {background: #333;}
+.surveysSuite .colBlackSuite object {margin: 90px auto 0 10px;}
+
+h2.iconTeam{background:url("../img/iconsSprite.png") no-repeat scroll 7px -58px #2CABE1;}
+
+.colTeamFirst{background: url("../img/bg-ColTeam.jpg") no-repeat; width: 300px; height: 348px;}
+.colTeamLast{height: 308px;}
+
+.colContent{width: 460px; padding: 20px;}
+.colContent p{font: 18px/23px 'Geogrotesque-Regular'; margin-bottom: 10px;}
+.colContent p span{font: bold 17px/21px 'Geogrotesque-Regular';}
+
+a.buttonCelestial{text-decoration: none;  display: inline-block;color: #fff;font:16px/18px 'Geogrotesque-Regular'; padding: 5px 10px; margin-left: 20px;}
+.colTeamFirst a.buttonCelestial{ margin-top: 290px;}
+a.buttonCelestial:hover{opacity: 0.8;}
+
+.rssBlog{background: #fff200; padding: 10px 20px; width: 760px;}
+.rssBlog a{color: #333; text-decoration: none;}
+.rssBlog a:hover{text-decoration: underline;}
+.rssBlog .colRssTitle{width: 226px;margin: 25px 10px 0 0;}
+.rssBlog .colRssTitle h2 {margin: 0;padding-left: 45px;
+font: 32px/40px 'Geogrotesque-Medium'; background: url("../img/icon-rss.png") no-repeat;}
+.rssBlog .colRssContent{width: 490px;}
+.rssBlog .colRssContent img{padding: 4px; background: #333; margin: 15px 15px 15px 0;}
+.rssBlog .colRssContent h3{margin: 10px 0 0;font: 21px/26px 'Geogrotesque-Regular';}
+.rssBlog .colRssContent p{margin: 10px 0;font: 16px/20px 'Geogrotesque-Medium';}
+
+h2.iconApi{background:url("../img/iconsSprite.png") no-repeat scroll 7px -111px #2CABE1;}
+.colSurveyApiFirst{width: 440px; height: 215px;}
+.colSurveyApiLast{background:url("../img/bg-Developer.jpg") no-repeat; width: 320px; height: 255px; }
+.colSurveyApiLast a{margin-top: 200px;}
+
+h2.iconResearch{background:url("../img/iconsSprite.png") no-repeat scroll 7px -166px #2CABE1;}
+.colSurveyResearchFirst{background:url("../img/bg-ColResearch.jpg") no-repeat; width: 300px; height: 398px; }
+.colSurveyResearchFirst a{margin-top: 330px;}
+.colSurveyResearchLast{padding: 15px 20px; height: 368px;}
+.colResearchDownload{ padding-right: 25px; width: 180px; margin-top: 20px;}
+.colResearchDownloadFirst{border-right: 1px solid #e3e3e3; margin-right: 30px;}
+.colResearchDownload a{margin: 10px 0 0 !important;}
+.colResearchDownload p span{ display: block; height: 37px;}
+.colResearchDownload img{margin-bottom: 10px;}
+
+h2.iconIntegrate{background:url("../img/iconsSprite.png") no-repeat scroll 7px -218px #2CABE1;}
+.colSurveysIntegrateFirst{width: 360px; height: 386px; padding: 10px 20px 0;}
+.colSurveysIntegrateFirst p, .colSurveysIntegrateFirst p span{margin-bottom: 0; font-size: 16px; line-height: 20px;}
+.colSurveysIntegrateLast{background:url("../img/bg-Integrate.jpg") no-repeat; width: 400px; height: 396px;}
+.colSurveysIntegrateLast a{margin-top: 340px;}
+
+.buttons-info-externalPlatForm  a.button{font-size:18px !important;width: 220px !important;padding: 20px !important;}
+
+h2.iconResource{background:url("../img/iconsSprite.png") no-repeat scroll 8px -271px #333;margin-left:10px;}
+
+.bg-headerTitlePlatformSurveys{background:url("../img/bg-headerTitlePlatformSurveys.png") no-repeat scroll right center #172852;
+ height: 105px;width: 760px;}
+ 
+.sectionContent{width: 760px; padding: 20px; background: #fff;}
+.sectionContent h2{color: #172852; font: 22px/25px 'Geogrotesque-Medium'; margin:5px 0;}
+.sectionContent h3{color: #333; font: 18px/22px 'Geogrotesque-Medium'; margin:5px 0;}
+.sectionContent p{color: #333; font: 14px/21px 'Geogrotesque-Regular'; margin:5px 0;}
+.screenShot{background: #f3f3f3; margin: 15px auto; padding: 20px 40px;} 
+.screenShot img{display: block;margin: auto;	-moz-box-shadow: 0 0 4px 0 #CCCCCC;
+    -webkit-box-shadow: 0 0 4px 0 #CCCCCC;
+    box-shadow: 0 0 4px 0 #CCCCCC;} 
+
+.contentLicense{background: #333; width: 420px; padding: 20px; color:#fff; height: 150px;}
+.contentLicenseLast{background: #333; width: 290px; padding: 20px; color:#fff;}
+.contentLicense h2{color: #fff200; margin: 0 0 5px 0;font: 26px/30px 'Geogrotesque-Medium';}
+.contentLicense h3{margin: 0 0 5px 0;font: 20px/25px 'Geogrotesque-Medium';}
+.contentLicense p{margin: 0 0 7px 0;font: 14px/21px 'Geogrotesque-Regular';}
+.contentLicense a{color:#fff;}
+.contentLicense a:hover{color:#ccc;}
