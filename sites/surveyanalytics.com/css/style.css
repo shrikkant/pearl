@@ -40,15 +40,16 @@ body{background: #dedede; font-family: 'Geogrotesque-Medium';}
 header.header{
 	background: #ffffff;
 }
-
+header .logo{width: 320px; height: 72px; float:left;}
 header img {margin: 15px 0 15px 20px;}
 
 header div a{
 	text-decoration: none;
 	font: 12px/14px 'Geogrotesque-Medium',arial;
-	padding: 8px 10px 6px;
+	padding: 6px 10px 8px;
 	text-transform: uppercase;
 }
+
 header div a.chat{
 	background: #333333;
 	color: #fff;
@@ -58,12 +59,17 @@ header div a.chat:hover{color:#DEDEDE;}
 header div a.free-license{background: #fff200;color: #636363;}
 header div a.free-license:hover{color: #969696;}
 
+nav{  float: left;
+    margin-top: 30px;
+    width: 980px;
+} 
 nav ul{
 	margin-left: 14px;
-	height: 26px;
-	width: 615px;
+	height: 25px;
+	width: 565px;
+	 float: left;
 }
-nav ul li{display: inline-block;}
+nav ul li{ float: left;}
 
 nav ul li a{
     color: #636363;
@@ -80,8 +86,8 @@ nav ul li a:hover{color: #8E8E8E;}
 
 nav form{
 	float: right;
-    margin: -6px 15px 0 0;
-    width: 270px;
+    margin: -6px 10px 0 0;
+    width: 280px;
 }
 nav form input{font-family:'Geogrotesque-Medium';color: #333;}
 
@@ -223,8 +229,8 @@ aside.sub-footer input[type="text"]{
 	font: 16px/18px 'Geogrotesque-Medium', arial;
 	color: #333;
 	width: 217px;
-	height: 35px;
-	padding-left: 5px;
+	height: 17px;
+	padding: 10px 5px;
 	margin-left: 7px;
 }
 aside.sub-footer input[type="submit"]{
@@ -233,9 +239,10 @@ aside.sub-footer input[type="submit"]{
     color: #FFFFFF;
     font: 11px/13px 'Geogrotesque-Regular',arial;
     height: 37px;
+    padding: 10px 5px;
     position: relative;
     top: -2px;
-    width: 50px;
+    width: 50px;	
 }
 aside.sub-footer input[type="submit"]:hover{background:#444;}
 aside.sub-footer span{margin-left: 87px; margin-right: 8px;}
@@ -246,7 +253,7 @@ aside.sub-footer span{margin-left: 87px; margin-right: 8px;}
 }
 aside.sub-footer .icon-social{	
     position: relative;
-    top: 13px;   
+    top: 15px;   
 }
 .icon-social:hover{opacity: 0.8;}
 .icon-g{background: url("../img/icon-social.png") no-repeat;}
@@ -261,13 +268,13 @@ footer.content-footer {
 
 footer.content-footer ul li {
 	list-style: none;
-	display: inline-block;
+	float:left;
 }
 footer.content-footer ul li a{
 	text-decoration: none;
 	color: #000;
 	display: block;
-	margin: 5px;	
+	margin: 0 5px 10px;	
 }
 footer.content-footer ul li a:hover{color: #6D6D6D;}
 
