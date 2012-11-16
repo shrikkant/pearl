@@ -1,0 +1,293 @@
+/*
+ * Headings
+ */
+.headingLarge { 
+        font-size: 26px; 
+        font-weight: bold;
+        color: #413f3f;
+        margin-bottom: 8px;
+        margin-top: 8px;
+}
+
+.headingLargeWhite { 
+        font-size: 26px; 
+        font-weight: bold;
+        color: #ffffff;
+        margin-bottom: 8px;
+        margin-top: 8px;
+}
+
+.heading { 
+     color: #333333;
+    font-size: 14px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+.headingWhite { 
+        font-size: 22px; 
+        font-weight: bold; 
+        color: #ffffff; 
+        margin-bottom: 6px;
+        margin-top: 6px;
+}
+
+.headingMedium { 
+        font-size: 20px;       
+        color: #172852;
+        margin: 10px 0;
+}
+.headingMedium a{color: #2cabe1; font: 16px/22px 'Geogrotesque-Medium',arial;} 
+.headingSmall { 
+        font-size: 14px; 
+        font-weight: bold; 
+        color: #413f3f;
+        margin-bottom: 4px;
+        margin-top: 4px;
+}
+
+
+/*
+ * Table Grids - outline cells
+ */
+.grid {
+        margin: 2px 0px 5px 0px;
+        border-collapse: collapse;
+}
+
+.grid th  {
+        font-size: 16px; 
+        font-weight: bold; 
+        color: #5498a2;
+        background: #cdecff;
+        white-space: nowrap;
+}
+
+.grid td  {
+        border: 1px solid #ccc;
+        padding: 3px 4px 3px 4px;
+}
+
+.nogrid td {
+        border: none;
+}
+
+.dropdown td {
+        border: none;
+        padding: 0px;
+}
+
+.channelHeader { 
+        font-size: 16px; 
+        font-weight: bold; 
+        color: #5498a2;
+        background: #cdecff;
+        white-space: nowrap;
+}
+
+
+/*
+ * Single px line
+ */
+.singleLine { 
+        border-bottom: 1px solid #ccc; 
+        margin-bottom:5px;
+}
+
+.dashedSingleLine {
+    border-top: 1px dashed #cccccc;
+    padding-top: 6px;
+    padding-bottom: 3px;
+    margin-top: 3px;
+    text-align: right;
+}
+
+.highlight {
+        background-color:#fffccc;
+}
+
+.nohighlight {
+}
+
+.error {
+        color: #cc0000;
+}
+
+/*
+ * Ajax Inline Popup
+ */
+.shadowedBox,.shadowedBoxIE {
+        display:none;
+        position : absolute;
+        margin-left: -16px;
+        margin-top: -2px;
+        z-index: 1000;
+}
+
+.shadowedBoxBody {
+        border: solid 1px #212121;
+        background-color: #ffffff;
+        padding:10px;
+}
+
+/*
+ * Highlighting Menus
+ */
+.sectionMenuHighlight {
+        background: #ffffcc; 
+        border: 1px solid #ffcc00; 
+        padding: 8px 6px 8px 6px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+}
+
+.sectionMenuNormal {
+        background: #ffffff; 
+        border: 1px solid #ffffff;
+        padding: 8px 6px 8px 6px; 
+}
+
+.sectionMenuNormalhover {
+	background: #EFEFEF; 
+        border: 1px solid #CFCFCF;
+        padding: 8px 6px 8px 6px; 
+	cursor:pointer; 
+	cursor:hand;
+}
+
+/*
+ * Simple Boxes
+ */
+.yellowBox {
+        background: #ffffcc;
+        border: 1px solid #ffcc00;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+}
+
+.grayBox {
+        background: #f1f1f1;
+        border: 1px solid #cccccc;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+}
+
+.shadowedGrayBox {background: none repeat scroll 0 0 #F3F3F3;  
+    margin: 15px auto 20px;
+    padding: 10px;
+    width: 690px;
+}
+
+.blueBox {
+        background: #c7defc;
+        border: 1px solid #99ccff;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+}
+
+.errorBox {
+        background: #ffebe8;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+}
+
+
+/*
+ *Alert Messages
+ */
+#AlertMessageBody {
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding: 5px 5px 5px 30px;
+        text-align: left;
+}
+
+
+.AlertMessageSuccess {
+        background:#e2f9e3 url(/images/alert_success.gif) no-repeat scroll left center;
+        border-color:#99CC99;
+        color:#006600;
+        border: 1px solid #99CC99;
+}
+
+.AlertMessageError {
+        background:#ffebe8 url(/images/alert_error.gif) no-repeat scroll left center;
+        border-color#:cc0000;
+        color:#660000;
+        border: 1px solid #cc0000;
+}
+
+.AlertMessageWarning {
+        background:#ffffcc url(/images/alert_warning.gif) no-repeat scroll left center;
+        border: 1px solid #ffcc00;
+}
+
+.flashMessage {
+        background:#e2f9e3 url(/images/alert_success.gif) no-repeat scroll left center;
+        border: 1px solid #99cc99;
+        padding: 5px 5px 5px 30px;
+        text-align: left;
+        font-weight: bold;
+        color:#006600;
+        margin-bottom: 10px;
+        margin-top: 10px;
+}
+
+/*
+ * HTML Dropdown
+ */
+.fbDDHeader {
+      background: url('/images/fb-gray-body.gif') repeat-x center center;
+      padding: 5px !important;      
+      cursor: pointer;            
+}
+    
+.fbDDSelHeader {
+      background-color: #424242;
+      padding: 5px !important;      
+      cursor: pointer;
+      color: #ffffff;          
+}
+    
+.fbDDBody {            
+      background-color: #eeeeee;        
+      padding: 0px;      
+      margin: 0px;
+      width: 100%;
+      border: 1px solid #424242;
+}
+
+.textFieldLabel {
+        text-align: right;
+        font-weight: bold;
+        vertical-align: center;
+        padding-right: 5px;
+        font-size:10pt;
+}
+
+input.box, input.largeBox {
+  color: #666;
+  padding-left:4px;
+  border: 2px solid #E3EEFD;
+  background-color: #E3EEFD;
+  outline-style:none;
+  font-size:1.4em;
+  padding:4px;
+}
+
+
+input.box:focus, input.largeBox:focus {
+  background-color: #E3EEFD;
+  border-color: #E3EEFD;
+}
+
+input.box:hover, input.largeBox:hover {
+  border-color: #E3EEFD;
+}
+
