@@ -1,0 +1,95 @@
+.bg-headerTitleFreeEvalua{
+    background: url("../img/bg-headerTitleFee-evaluation.jpg") no-repeat scroll 0 0 transparent;
+    height: 137px;
+    width: 940px;
+}
+
+.logos-client{
+	background: #9e9e9e;
+	color: #fff;
+	margin: 10px auto 20px;
+	padding: 5px 5px 5px 30px;	
+    width: 945px;
+}
+.logos-client span{
+	display: block;
+    float: left;
+    font: 12px/14px 'Geogrotesque-Medium',arial;
+    margin-top: 17px;
+    padding: 2px 14px 0 0;
+    width: 45px;
+}
+.comments{
+	padding: 20px;
+	width: 290px;	
+	background: #fff;
+}
+.comments h3{
+	font: 20px/24px 'Geogrotesque-Medium',arial;
+	color: #333;
+	margin: 0 0 10px 0;
+ }
+.comments .col-img{
+	margin-right: 10px;
+    width: 65px;
+}
+.comments .col-descri{
+	width: 215px;
+	font: 14px/21px 'Geogrotesque-Regular',arial;
+}
+.comments .col-descri p{margin-bottom: 5px;}
+
+.formContactFree{ 
+    height: 512px;
+    padding: 20px;
+    width: 600px;
+}
+
+.formContactFree h2{
+	color: #2cabe1;
+	font: normal 26px/31px 'Geogrotesque-Medium',arial;
+	padding-bottom: 10px;
+	margin: 0 0 40px 0;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.formContactFree form{
+	width: 345px;
+	border-right: 1px solid #dfdfdf;
+	padding-right: 20px;
+	margin: 0px 0 10px 0;
+}
+
+.formContactFree form input[type="text"]{margin-right: 0;}
+
+.formContactFree ul{width: 195px; margin-left: 20px;}
+.formContactFree ul li{ 
+	list-style: none;
+	background: url("../img/list-style-tick.png") no-repeat 1px 1px;
+	padding-left: 30px;
+	margin-bottom: 10px;
+	font: normal 16px/21px 'Geogrotesque-Regular',arial;
+}  
+
+/* message */
+.msg-pop-up-free{
+	width: 555px;
+	height: 20px;
+	padding: 5px 10px 2px 35px;	
+	-moz-box-shadow: 0px 2px 2px 0px #8C8C8C;
+    -webkit-box-shadow: 0px 2px 2px 0px #8C8C8C;
+    box-shadow: 0px 2px 2px 0px #8C8C8C;
+	color: #fff;
+	margin-bottom: 15px;	
+}
+.msg-pop-up p{
+	font: normal 15px/16px 'Geogrotesque-Medium';
+	margin: 0;
+	padding: 0;
+}
+.msg-pop-up a.close-pop-up-msg{font: bold 16px/20px 'Geogrotesque-Medium'; padding: 0;}
+
+.msg-send{background: url("../img/icons-msg-send.png") no-repeat 7px center #50b400;}
+.msg-error{background: url("../img/icons-msg-error.png") no-repeat 7px center #e30000;}
+
+/* end message */
