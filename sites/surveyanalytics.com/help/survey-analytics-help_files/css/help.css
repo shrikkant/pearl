@@ -20,6 +20,11 @@
 
 /* end shortcode */
 
+.content{
+        width: 980px;
+        margin: auto;
+}
+
 * {
 	margin: 0px;
 	padding: 0px;	
@@ -519,3 +524,43 @@ table.contentSearch tbody tr td .headingMedium{margin: 0 0 5px 0;}
 table.contentSearch p{color: #333333;font: 14px/20px 'Geogrotesque-Medium',arial; margin-bottom: 5px; }
 
 .secondaryText{color: #172852;  font: 14px/20px 'Geogrotesque-Medium',arial;}
+
+/* content*/
+
+.bg-headerTitle{padding: 20px;}
+.bg-headerTitle h1{
+	color: #fff;
+        margin: 0 0 20px;
+        padding: 0;
+        font: 40px/43px 'Geogrotesque-Medium';
+}
+.bg-headerTitle blockquote{
+        color: #FFFFFF;
+    font: 18px/21px 'Geogrotesque-Regular';
+    margin: 0 0 6px;
+    padding: 0;
+}
+.bg-headerTitle h3{
+	color: #FFFFFF;
+    font: bold 16px/19px 'Geogrotesque-Medium';
+    margin: 0 0 6px;
+    padding: 0;
+    width: 520px;
+}
+.bg-headerTitle img.avatar{padding: 4px;        background: #fff;margin-right: 15px;}
+.bg-headerTitle img.logoHeaderTitle{    margin: 35px 65px 0 0;}
+
+.bg-headerTitleHelp {
+background: no-repeat scroll right center #172850;
+height: 105px;
+width: 760px;
+}
+
+.titleIcon{
+        color: #fff;
+        padding: 10px 15px 10px 58px;
+	font: 28px/32px 'Geogrotesque-Medium';
+        display: block;
+	margin: 0px;
+}
+
