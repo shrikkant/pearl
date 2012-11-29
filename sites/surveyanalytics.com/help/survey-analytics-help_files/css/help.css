@@ -17,6 +17,7 @@
 .pushBottom10{margin-bottom: 10px;}
 .celestial{color: #2cabe1;}
 .bgCelestial{background: #2cabe1;}
+.gap20{height: 20px; display:block;}
 
 /* end shortcode */
 
@@ -39,6 +40,8 @@ h2{
 	color: #413f3f;
 	font-size: 16px;
 }
+
+hr{border: none; height: 1px; display: block; background: #ccc; margin: 25px 0 15px 0;}
 
 p {
 	color: #333;	
